@@ -8,7 +8,7 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="엑토인 진정 마스크 체험팩 | 두 장부터 가볍게">
 <meta property="og:description" content="극민감 피부를 위한 엑토인·판테놀·베타글루칸 수분 마스크. 두 장 체험팩으로 먼저 써 보세요.">
-<meta property="og:image" content="https://leeseoeun95.github.io/abib-site/assets/og.png">
+<meta property="og:image" content="https://leeseoeun95.github.io/abib-site/assets/%EC%95%84%EB%B9%84%EB%B8%8C_8_%EC%A0%95%EB%A9%B4.png">
 <meta property="og:url" content="https://leeseoeun95.github.io/abib-site/">
 <link rel="canonical" href="https://leeseoeun95.github.io/abib-site/">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
@@ -30,7 +30,10 @@ body{font-family:"Pretendard Variable",Pretendard,system-ui,sans-serif;color:var
 /* 연출컷: 떠 있는 패키지 */
 .float{position:relative;height:520px;margin-top:50px}
 .float .pk{position:absolute;border-radius:18px;box-shadow:0 30px 50px -20px rgba(40,90,120,.35);overflow:hidden}
-.float .pk .ph{background:linear-gradient(135deg,#fff,#E3F2FA);color:#6a8a9a}
+.float .pk img{width:100%;height:100%;object-fit:cover;display:block}
+.product-img{width:100%;height:100%;object-fit:cover;display:block;background:#F4F8FA}
+.how-pic{height:360px;border-radius:24px;overflow:hidden;margin-top:36px;box-shadow:0 20px 45px -30px rgba(40,90,120,.55)}
+.how-pic img{width:100%;height:100%;object-fit:cover;display:block}
 .float .ring{position:absolute;left:50%;top:50%;width:520px;height:220px;transform:translate(-50%,-30%) rotate(-12deg);border:26px solid rgba(255,255,255,.55);border-radius:50%;box-shadow:inset 0 0 20px rgba(255,255,255,.8),0 10px 30px rgba(79,143,176,.25)}
 .gel{position:absolute;width:120px;height:160px;border-radius:50% 50% 45% 55%/60% 60% 40% 40%;background:radial-gradient(circle at 35% 30%,rgba(255,255,255,.95),rgba(190,225,242,.55) 60%,rgba(150,200,225,.3));filter:blur(.3px)}
 /* 고민 */
@@ -42,7 +45,7 @@ body{font-family:"Pretendard Variable",Pretendard,system-ui,sans-serif;color:var
 .ing div{background:rgba(255,255,255,.75);border-radius:24px;padding:34px 16px;backdrop-filter:blur(6px)}
 .ing i{display:grid;place-items:center;width:84px;height:84px;margin:0 auto 16px;border-radius:50%;font-style:normal;font-size:30px;background:radial-gradient(circle at 35% 30%,#fff,var(--sky2))}
 .ing b{display:block;font-size:22px}.ing p{font-size:15px;color:var(--sub);margin:8px 0 0}
-.pic{height:460px;border-radius:24px;overflow:hidden;margin-top:44px}.pic .ph{background:linear-gradient(135deg,#F2F9FC,var(--sky))}
+.pic{height:460px;border-radius:24px;overflow:hidden;margin-top:44px}.pic img{width:100%;height:100%;object-fit:cover;display:block}
 /* 사용법 */
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:44px}
 .steps div{border:1px solid var(--line);border-radius:20px;padding:26px 14px}
@@ -50,7 +53,7 @@ body{font-family:"Pretendard Variable",Pretendard,system-ui,sans-serif;color:var
 /* 구성 */
 .prods{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:44px;text-align:left}
 .prods a{border-radius:20px;background:#fff;box-shadow:0 10px 30px -18px rgba(40,90,120,.4);overflow:hidden}
-.prods .ph{height:180px}.prods div.t{padding:16px}.prods em{font-style:normal;font-size:12px;font-weight:700;color:#fff;background:var(--deep);border-radius:999px;padding:2px 10px}
+.prods .product-media{height:180px;overflow:hidden;background:#F4F8FA}.prods .product-media img{width:100%;height:100%;object-fit:cover;display:block}.prods div.t{padding:16px}.prods em{font-style:normal;font-size:12px;font-weight:700;color:#fff;background:var(--deep);border-radius:999px;padding:2px 10px}
 .prods b{display:block;font-size:17px;margin-top:6px}
 /* 신청 */
 .apply{text-align:left}
@@ -69,7 +72,7 @@ body{font-family:"Pretendard Variable",Pretendard,system-ui,sans-serif;color:var
 .ft{text-align:center;font-size:12px;color:var(--sub);padding:30px 20px 80px}
 @media (max-width:860px){
   .hd{padding:0 16px}.hd nav a:not(:last-child){display:none}.blk{padding:70px 20px}.h{font-size:28px}.p{font-size:16px}
-  .float{height:340px}.float .ring{width:300px;height:130px;border-width:16px}.ing,.steps,.prods{grid-template-columns:1fr}.pic{height:280px}.notice{padding:30px 20px}
+  .float{height:340px}.float .ring{width:300px;height:130px;border-width:16px}.float .pk:first-of-type{left:7%!important;width:145px!important;height:218px!important}.float .pk:nth-of-type(2){right:7%!important;width:145px!important;height:218px!important}.ing,.steps,.prods{grid-template-columns:1fr}.pic{height:280px}.how-pic{height:280px}.notice{padding:30px 20px}
 }
 </style>
 <!-- GA4 (Day 34에 여기에 붙이기) -->
@@ -87,8 +90,8 @@ body{font-family:"Pretendard Variable",Pretendard,system-ui,sans-serif;color:var
   <p class="p">진정팩도 따가웠다면, 성분부터 다시 보세요. 엑토인·판테놀·베타글루칸을 담은 수분 마스크를 체험팩으로 먼저 만나 보세요.</p>
   <div class="float">
     <div class="ring"></div>
-    <div class="pk" style="left:14%;top:40px;width:230px;height:300px;transform:rotate(-10deg)"><div class="ph "><span><span class="todo">파우치 누끼 1</span></span></div></div>
-    <div class="pk" style="right:14%;top:120px;width:250px;height:250px;transform:rotate(8deg)"><div class="ph "><span><span class="todo">박스 누끼</span></span></div></div>
+    <div class="pk" style="left:15%;top:24px;width:220px;height:330px;transform:rotate(-9deg)"><img src="assets/%EC%95%84%EB%B9%84%EB%B8%8C_8_%EC%A0%95%EB%A9%B4.png" alt="아비브 엑토인 수분 진정 시트 마스크 정면"></div>
+    <div class="pk" style="right:15%;top:105px;width:210px;height:315px;transform:rotate(8deg)"><img src="assets/%EC%95%84%EB%B9%84%EB%B8%8C_8_%EB%92%B7%EB%A9%B4.png" alt="아비브 엑토인 수분 진정 시트 마스크 뒷면"></div>
     <span class="gel" style="left:44%;top:300px"></span><span class="gel" style="left:8%;top:360px;width:70px;height:90px"></span><span class="gel" style="right:8%;top:40px;width:80px;height:100px"></span>
   </div>
 </section>
@@ -110,19 +113,20 @@ body{font-family:"Pretendard Variable",Pretendard,system-ui,sans-serif;color:var
   <span class="eb">TEXTURE</span>
   <h2 class="h">흘러내리지 않는<br><em>투명한 젤</em> 에센스</h2>
   <p class="p"><span class="todo">제형 설명: 점도, 흡수감, 시트 소재</span></p>
-  <div class="pic"><div class="ph "><span><span class="todo">투명 젤이 시트에서 흘러내리는 클로즈업 (핀 1번 무드)</span></span></div></div>
+  <div class="pic"><img src="assets/hf_20261001_070113_2dad2a4c-efe7-4264-bc24-fc4b5f86b69b%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8.png" alt="투명한 젤 에센스 제형 클로즈업"></div>
 </section>
 
 <section class="blk sky" id="how">
   <span class="eb">HOW TO USE</span>
   <h2 class="h">열 오른 볼에 촉촉한 시트를 10분</h2>
   <div class="steps"><div><b>01</b><strong>세안 후</strong><p>토너로 피부결을 정돈합니다.</p></div><div><b>02</b><strong>10분</strong><p>시트를 붙이고 10분간 둡니다.</p></div><div><b>03</b><strong>두드리기</strong><p>남은 에센스를 가볍게 두드려 흡수시킵니다.</p></div></div>
+  <div class="how-pic"><img src="assets/hf_20261001_070205_b8b973f7-4eb1-4fb1-a253-f766e63939aa%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8.png" alt="아비브 수분 진정 시트 마스크 사용 모습"></div>
 </section>
 
 <section class="blk">
   <span class="eb">LINE UP</span>
   <h2 class="h">처음 쓰는 분을 위한 구성</h2>
-  <div class="prods"><a href="#apply"><div class="ph "><span>체험팩 2매 누끼</span></div><div class="t"><em>처음이라면</em><b>체험팩 2매</b><span class="todo">가격</span></div></a><a href="#apply"><div class="ph "><span>10매 박스 누끼</span></div><div class="t"><b>10매 박스</b><span class="todo">가격</span></div></a><a href="#apply"><div class="ph "><span><span class="todo">구성 3</span> 누끼</span></div><div class="t"><b><span class="todo">구성 3</span></b><span class="todo">가격</span></div></a></div>
+  <div class="prods"><a href="#apply"><div class="product-media"><img src="assets/%EC%95%84%EB%B9%84%EB%B8%8C_8_%EC%A0%95%EB%A9%B4.png" alt="아비브 마스크 체험팩 정면"></div><div class="t"><em>처음이라면</em><b>체험팩 2매</b><span class="todo">가격</span></div></a><a href="#apply"><div class="product-media"><img src="assets/%EC%95%84%EB%B9%84%EB%B8%8C_8_%EB%92%B7%EB%A9%B4.png" alt="아비브 마스크 제품 정보"></div><div class="t"><b>10매 구성</b><span class="todo">가격</span></div></a><a href="#apply"><div class="product-media"><img src="assets/hf_20261001_070205_b8b973f7-4eb1-4fb1-a253-f766e63939aa%20-%20%EB%B3%B5%EC%82%AC%EB%B3%B8.png" alt="촉촉한 시트 마스크 제형"></div><div class="t"><b>시트 마스크</b><span class="todo">가격</span></div></a></div>
 </section>
 
 <section class="blk sky2 apply" id="apply">
